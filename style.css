@@ -6,7 +6,7 @@ body {
   color: #F9FAF8;
 }
 
-.header, .header-links, .hero{
+.header, .header-links, .hero, .information, .information-content{
   display: flex;
 }
 
@@ -15,10 +15,11 @@ body {
   align-items: center;
   background-color: #1F2937;
   color: white;
+  margin-top: 0px;
   padding-left: 128px;
   padding-right: 128px;
   font-size: 24px;
-  padding-bottom: 32px;
+  padding-bottom: 64px;
 }
 
 .header-logo {
@@ -38,7 +39,7 @@ body {
   padding-left: 128px;
   padding-right: 128px;
   font-size: 18px;
-  padding-bottom: 32px;
+  padding-bottom: 64px;
 }
 
 .hero-title {
@@ -54,10 +55,12 @@ body {
   width: 400px;
   border-radius: 4px;
 }
-.hero-button{
+.hero-button {
   background-color: #3882F6;
   color: #F9FAF8;
-  font-family: 'Roboto', sans-serif;
+  font-fam  border-color: black;
+  border-width: 10px;
+  border-style: solid;ily: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 900;
   border-radius: 8px;
@@ -67,10 +70,29 @@ body {
   padding-right: 20px;
 }
 
+.information {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin-left: 128px;
+  margin-right: 128px;
+  margin-bottom: 64px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.information-content {
+  align-items: space-between;
+  gap: 50px;
+  font-size: 18px;
+  color: gray;
+}
 
-
-
-
+.info-image {
+  width: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 8px;
+} 
 
 
