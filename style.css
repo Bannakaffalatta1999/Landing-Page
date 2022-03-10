@@ -3,23 +3,22 @@
 body {
   margin: 0px;
   font-family: 'Roboto', sans-serif;
-  color: #F9FAF8;
 }
 
-.header, .header-links, .hero, .information, .information-content{
+.header, .hero, .information, .quote{
   display: flex;
+  padding-left: 128px;
+  padding-right: 128px;
+  padding-bottom: 64px;
+  padding-top: 0px;
 }
 
 .header {
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
-  color: white;
-  margin-top: 0px;
-  padding-left: 128px;
-  padding-right: 128px;
+  color: #F9FAF8;
   font-size: 24px;
-  padding-bottom: 64px;
 }
 
 .header-logo {
@@ -27,6 +26,8 @@ body {
 }
 
 .header-links {
+  display: flex;
+  align-items: center;
   list-style-type: none;
   gap: 20px;
   font-size: 18px;
@@ -35,11 +36,9 @@ body {
 .hero {
   justify-content: space-between;
   align-items: center;
+  color: #F9FAF8;
   background-color: #1F2937;
-  padding-left: 128px;
-  padding-right: 128px;
   font-size: 18px;
-  padding-bottom: 64px;
 }
 
 .hero-title {
@@ -58,9 +57,10 @@ body {
 .hero-button {
   background-color: #3882F6;
   color: #F9FAF8;
-  font-fam  border-color: black;
+  font-family: 'Roboto', sans-serif;
+  border-color: black;
   border-width: 10px;
-  border-style: solid;ily: 'Roboto', sans-serif;
+  border-style: solid;
   font-size: 18px;
   font-weight: 900;
   border-radius: 8px;
@@ -74,15 +74,13 @@ body {
   color: #1F2937;
   font-size: 36px;
   font-weight: 900;
-  margin-left: 128px;
-  margin-right: 128px;
-  margin-bottom: 64px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
 .information-content {
+  display: flex;
   align-items: space-between;
   gap: 50px;
   font-size: 18px;
@@ -95,4 +93,21 @@ body {
   border-radius: 8px;
 } 
 
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.quoted {
+  font-style: none;
+  font-size: 16px;
+  font-weight: 900;
+  display: flex;
+  justify-content: right;
+}
