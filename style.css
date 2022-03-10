@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.header, .hero, .information, .quote, .call-to-action {
+.header, .hero, .information, .quote, .call-to-action, .footer {
   display: flex;
   padding-left: 128px;
   padding-right: 128px;
@@ -152,4 +152,10 @@ body {
   padding-right: 20px;
   margin-left: 64px;
   height: 50px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: white;
+  justify-content: center;
 }
